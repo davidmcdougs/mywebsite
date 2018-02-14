@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>The Flame || Documentation Template</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <style type="text/css" media="screen">
+        p,
+        table,
+        hr,
+        .box {
+            margin-bottom: 25px;
+        }
+        
+        .box p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="center">&ldquo;The Flame - Template&rdquo;</h1>
+        <div class="borderTop">
+            <div class="span-6 colborder info prepend-1">
+                <p class="prepend-top"> <strong>
+					Created: 20/11/2017<br>
+					By: PhyDev<br>
+					Email: <a href="mailto:9onfod71@gmail.com">9onfod71@gmail.com</a>
+					</strong> </p>
+            </div>
+            <!-- end div .span-6 -->
+            <div class="span-12 last">
+                <p class="prepend-top append-0">Thank you for purchasing my Template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://themeforest.net/user/phydev">here</a>. Thanks so much!</p>
+            </div>
+        </div>
+        <!-- end div .borderTop -->
+        <hr>
+        <h2 id="toc" class="alt">Table of Contents</h2>
+        <ol class="alpha">
+            <li><a href="#htmlStructure">HTML Structure</a></li>
+            <li><a href="#cssFiles">CSS Files and Structure</a></li>
+            <li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#php-file">PHP Code Explanation</a></li>
+            <li><a href="#colors">Template Colors</a></li>
+            <li><a href="#credits">Sources and Credits</a></li>
+        </ol>
+        <hr>
+        <h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+        <p>This Template is a responsive layout with 4+ columns. All of the information within the main content area is nested within a section with an class of "section" ( Except The nav-wrapper and footer ). The Navigation bar (column #1) content is within a div with an class of "nav-wrapper". The home (column #2) content is within a section with an id of "home". The about (column #3) content is within a section with an id of "about". The services (column #4) content is within a section with an id of "service". The portfolio (column #5) content is within a section with an id of "portfolio". The blog (column #6) content is within a section with an id of "blog". The Contact (column #7) content is within a section with an id of "Contact", The Footer (column #8) content is within a Footer with an class of "footer", The general template structure is the same throughout the template. Here is the general structure.</p> <img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+        <hr>
+        <h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+        <p>I'm using one CSS files in this Template ( style.css ) contains all of the specific stylings for the page. The file is separated into sections using:</p>
+        <pre>	
+        		/*------------------------
+        		 GENERAL STYLE AREA
+        		------------------------*/
+
+        		some code
+
+			/*-----------------------
+			 END GENERAL STYLE AREA
+			------------------------*/
+
+			/*----------------------------------
+			 START MAIN NAVIGATION BAR AREA
+			-----------------------------------*/
+			
+			some code
+
+			/*----------------------------------
+			 END MAIN NAVIGATION BAR AREA
+			-----------------------------------*/
+
+			/*--------------------
+			 START HOME AREA
+			--------------------*/
+			
+			some code
+			
+			/*--------------------
+			 END HOME AREA
+			--------------------*/
+
+			/*--------------------
+			  START ABOUT AREA
+			 --------------------*/
+
+			some code
+			
+			/*--------------------
+			 END ABOUT AREA
+			--------------------*/
+		
+			etc, etc. ....
+		</pre>
+
+        <p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+        <pre>    #selector {
+	change styles here:
+    }
+		</pre>
+
+        <hr>
+        <h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+        <p>The Template imports six Javascript files.</p>
+        <ol>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>Owl Carousel</li>
+            <li>jQuery CountTo.js</li>
+            <li>jquery.magnific-popup.min.js</li>
+            <li>jquery.typer.js</li>
+            <li>particles.js</li>
+            <li>My main.js</li>
+        </ol>
+
+    		<li>jQuery is a fast, small, and feature-rich JavaScript library.</li>
+    		<li>Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.</li>
+
+        <br>
+        <hr>
+        <br>
+        <h3 id="php-file"><strong>D) PHP Code Explanation</strong> - <a href="#toc">top</a></h3>
+        <p>PHP File included :</p>
+        	<ol>
+        		<li>contact.php</li>
+        	</ol><br>
+ 		<p>Mail Configuration :</p>
+        	<ul>
+        		<li>In contact.php, find the following line:</li>
+        	</ul>
+ 			<img src="assets/images/email.png" alt="php-file">
+ 			<p>Replace the userName@mail.com to your receiver email address.</p>
+ 			<hr><br>
+
+        <h3 id="colors"><strong>E) Colors</strong> - <a href="#toc">top</a></h3>
+        <p>if you wanna change the template main color just go to (color-schemes.css) file and copy one of the Classes value and just paste it in those selectors in (style.css) file:</p>
+		<pre>    .main-color {
+         color: paste here;
+    }
+
+     .main-color-bg {
+         background-color: paste here;
+    }
+</pre>
+
+        <h3 id="credits"><strong>F) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+        <p>I've used the following images, icons or other files as listed.</p>
+            <ul>
+                <li><a href="https://getbootstrap.com" target="_blanc">Bootstrap</a></li>
+                <li><a href="https://jquery.com/" target="_blanc">jQuey</a></li>
+                <li><a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blanc">Owl Carousel 2</a></li>
+                <li><a href="http://fontawesome.io/" target="_blanc">Font Awesome</a></li>
+                <li><a href="https://unsplash.com/" target="_blanc">Images</a></li>
+            </ul>
+            <hr>
+            <p>Once again, thank you so much for purchasing this Template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this Template. No guarantees, but I'll do my best to assist. If you have a more general question relating to the Templates on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+            <h3 style="font-size: 1.6em;line-height: 2;">If you like this template, do not forget to give <img src="assets/images/five-stars.jpg" style="position: relative;top: 26px;width: 130px"> rating and give your valuable feedback for better update.</h3>
+            <a href="https://themeforest.net/user/phydev" style="text-decoration: none;"><p class="append-bottom alt large"><strong>PhyDev</strong></p></a>
+            
+        <p><a href="#toc">Go To Table of Contents</a></p></div>
+            <hr class="space">
+    <!-- end div .container -->
+</body>
+
+</html>
