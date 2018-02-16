@@ -136,10 +136,10 @@ img {
 /************ Template Colors ************/
 
 .main-color {
-	color: #F67262; /*CHANGE 591BC5 */
+	color: #07aaf5; /*CHANGE 591BC5 */
 }
 .main-color-bg {
-	background-color: #F67262;
+	background-color: #07aaf5;
 	color: #fefefe;
 }
 
@@ -954,6 +954,7 @@ About
 	text-transform: uppercase;
     bottom: 24px;
     font-weight: 700;
+    margin-top:30px;
 }
 .progress-bar-skills p {
 	position: absolute;
