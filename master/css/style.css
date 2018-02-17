@@ -682,10 +682,10 @@ Home
 	background-image: url(img/sun_moon_lake.jpg);
 }
 .home-carousel .second-slide {
-	background-image: url(http://placehold.it/1200x800);
+	background-image: url(https://lonelyplanetimages.imgix.net/mastheads/GettyImages-552157575_super.jpg?sharp=10&vib=20&w=1200);
 }
 .home-carousel .third-slide {
-	background-image: url(http://placehold.it/1200x800);
+	background-image: url(https://cdn.wallpapersafari.com/10/43/UJ0tqH.jpg);
 }
 
 
@@ -854,6 +854,9 @@ Home
 /*----------------------------------------
 About
 ----------------------------------------*/
+#about {
+	background-color: #c5f1f7;
+}
 .about-img {
 	-webkit-box-shadow: 0 0 20px #cecece;
 	-moz-box-shadow: 0 0 20px #cecece;
@@ -1003,7 +1006,7 @@ About
 
 .hobbies-section {
 	padding: 100px 0;
-	background-color: #fafafa;
+	background-color: #c5f1f7;
 }
 .hobbies-section .container-fluid {
 	-webkit-box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06), 0 -2px 16px rgba(0, 0, 0, 0.04);
@@ -1077,6 +1080,9 @@ About
 /*----------------------------------------
 Services
 ----------------------------------------*/
+#services{
+	background-color: #c5f1f7;
+}
 .single-service {
 	position: relative;
 }
@@ -1165,7 +1171,7 @@ Services
 }
 
 .fun-facts-section {
-	background-image: url(http://placehold.it/1200x800);
+	background-image: url(https://lonelyplanetimages.imgix.net/mastheads/GettyImages-552157575_super.jpg?sharp=10&vib=20&w=1200);
 	padding-bottom: 70px !important;
 }
 .fun-facts-section .count {
@@ -1199,6 +1205,12 @@ Services
 /*----------------------------------------
 Work
 ----------------------------------------*/
+#work {
+	background-color: #c5f1f7;
+}
+.work-item {
+	height:250px;
+}
 #work-list {
     margin-bottom: 40px;
 }
@@ -1256,6 +1268,8 @@ Work
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+    height:250px;
+    width:100%;
 }
 .work-overlay {
     position: absolute;
@@ -1311,7 +1325,7 @@ Work
 }
 
 .testimonials-section {
-	background-image: url(http://placehold.it/1200x800);
+	background-image: url(https://wallpapersafari.com/w/UJ0tqH);
 }
 .testimonials-carousel {
 	position: relative;
@@ -1471,7 +1485,7 @@ Blogs
 Contact
 ----------------------------------------*/
 #contact {
-	background-image: url(http://placehold.it/1200x800);
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/2a/d9/e9/2ad9e958e2517a07d094f2ea94ef06ff.jpg);
 }
 #contact .section-title h2 {
 	color: #fafafa;
