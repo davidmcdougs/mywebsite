@@ -232,8 +232,8 @@ a.main-color-bg:focus {
 }
 .section-title img {
 	position: absolute;
-	top: -40px;
-	left: -18px;
+	top: -35px;
+	left: -10px;
 }
 
 .parallax-section {
@@ -944,9 +944,12 @@ About
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-color: #fff;
+	background-color: white;
 	top: 0;
 	left: 0;
+	margin-right:5px;
+	z-index:10;
+	border-color:black;
 }
 .progress-bar-text {
 	position: absolute;
@@ -1003,7 +1006,9 @@ About
 	margin-top: 15px;
 	padding: 12px 18px;
 }
-
+.hobbies-title {
+	margin-bottom:200px;
+}
 .hobbies-section {
 	padding: 100px 0;
 	background-color: #c5f1f7;
@@ -1018,6 +1023,8 @@ About
 	padding-right: 0;
 }
 .single-hobbie {
+	margin-top:50px;
+	height:400px;
 	padding: 90px 10px;
 	width: 100%;
 	background-color: #fafafa;
@@ -1209,6 +1216,8 @@ Work
 	background-color: #c5f1f7;
 }
 .work-item {
+	margin-top:40px;
+	margin-bottom:10px;
 	height:250px;
 }
 #work-list {
@@ -1254,6 +1263,7 @@ Work
 	opacity: 0;
 }
 .single-work {
+
 	position: relative;
 	overflow: hidden;
 	-webkit-border-radius: 4px;
@@ -1264,6 +1274,7 @@ Work
 	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
 }
 .single-work img {
+	margin:10px;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);

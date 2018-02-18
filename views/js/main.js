@@ -200,6 +200,8 @@ Javascript Function For Change active Class on navigation bar
 --------------------------------------------*/
 
     // initialize text Typer Only in Modern browsers
+    // $.typer.options.typeDelay = 50;
+
     if (animation) {
 
       var text = $('#home .typer-title'),
@@ -207,6 +209,7 @@ Javascript Function For Change active Class on navigation bar
           textTwo = "Experienced Medical IT Technician",
           textThree = "I Can Create Awesome Stuff";
 
+          
           if (!!$.prototype.typer) {
             text.typer([textOne,textTwo,textThree]);
           }
@@ -637,6 +640,7 @@ Javascript Function For Change active Class on navigation bar
 
       // Serialize the form data.
       var formData = $(form).serialize();
+      console.log(formData);
 
       // Submit the form using AJAX.
       $.ajax({
