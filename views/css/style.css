@@ -28,6 +28,22 @@ Table of content
 /*----------------------------------------
 General Styles
 ----------------------------------------*/
+@media only screen and (max-width: 400px) {
+	.mediaCenter {
+		margin-left:100px;
+		margin-right:25%;
+	}
+    .section-title {
+		text-align:center;
+	}
+	.single-hobbie {
+		width:100%;
+		margin:0;
+		padding-left:0;
+		padding-right:0;
+	}
+
+}
 
 html, body {
 	height: 100%;
@@ -220,7 +236,7 @@ a.main-color-bg:focus {
     position: relative;
     width: 100%;
     margin-bottom: 80px;
-    padding-left: 40px;
+	/* padding-left: 40px; */
 }
 .section-title h2 {
     position: relative;
