@@ -28,7 +28,7 @@ Table of content
 /*----------------------------------------
 General Styles
 ----------------------------------------*/
-@media only screen and (max-width: 400px) {
+@media (min-width: 500px) {
 	.mediaCenter {
 		margin-left:100px;
 		margin-right:25%;
@@ -37,10 +37,14 @@ General Styles
 		text-align:center;
 	}
 	.single-hobbie {
-		width:100%;
-		margin:0;
+		margin-top:10px;
+		/* width:100%; */
+		/* margin:0;
 		padding-left:0;
-		padding-right:0;
+		padding-right:0; */
+	}
+	.work-item {
+		padding-left:50px;
 	}
 
 }
@@ -1043,6 +1047,7 @@ About
 	padding-right: 0;
 }
 .single-hobbie {
+	margin-top:20px;
 	height:400px;
 	padding: 90px 10px;
 	width: 100%;
@@ -1237,6 +1242,7 @@ Work
 .work-item {
 	margin-top:40px;
 	margin-bottom:10px;
+	flex: 50%;
 	height:250px;
 }
 #work-list {
@@ -1906,13 +1912,16 @@ Mediaqueries
 
 @media screen and (min-width: 540px) {
 	.progress-bar-skills {
-		width: 25%;
+		width: 26%;
 		border-right: 25px solid #fff;
 		border-left: 25px solid #fff;
 	}
-	.skills-top {
+	/* .skills-top {
 		margin-bottom: 0;
-	}
+	} */
+	/* .work-item {
+		padding-left:50px;
+	} */
 }
 @media screen and (min-width: 768px) {
 
@@ -2529,4 +2538,7 @@ bounce:hover {
   cursor: pointer;
   animation-name: bounce;
   -moz-animation-name: bounce;
+}
+info-button.done {
+	height:75px;
 }
