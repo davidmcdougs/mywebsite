@@ -26,12 +26,12 @@ console.log("i am req.body after mail trigger ", req.body);
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-        host: 'smtp.gmail.com',
+        host: 'smtp.mail.yahoo.com',
         port: 465,
         secure: true, // true for 465, false for other ports
         auth: {
-            user: "davidmcdougs@gmail.com", // generated ethereal user
-            pass: "iamy3obright",  // generated ethereal password
+            user: "davidmcdougs@yahoo.com", // generated ethereal user
+            pass: "thiswontworkanywhereelse",  // generated ethereal password
         }
     });
 
@@ -56,7 +56,7 @@ console.log("i am req.body after mail trigger ", req.body);
         // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
         // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
     });
-    var response = "Thank you for reaching out. I hope we get a chance to work together soon.";
+    var response = "Still working on this. Please contact me directly at davidl.mcdougald@gmail.com for now.";
     res.json(response);
 });
 // });
