@@ -17,6 +17,10 @@ app.get('/', function(req,res){
   res.sendFile(path.join(__dirname, "/views/index.html"));
 });
 
+app.get('/projects/tree', function(req,res){
+  res.sendFile(path.join(__dirname, "/projects/tree/index.html"))
+});
+
 app.post('/contact/mail', function(req,res){
 console.log("i am req.body after mail trigger ", req.body);
 
