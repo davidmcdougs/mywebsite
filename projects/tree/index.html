@@ -25,21 +25,25 @@
 var angle = 0;
 var iteration = 0;
 var slider;
+var tiers =0;
 var numberHolder = document.getElementById("counter");
 
 
 
 function setup() {
   createCanvas(400, 400);
-  slider = createSlider(0, TWO_PI, PI / 4, 0.01);
+  slider = createSlider(0, 10, 0, 1);
 }
 
 function draw() {
   background(51);
-  angle = slider.value();
+  tiers = slider.value();
+  numberHolder.innerText=tiers;
+  angle = .5
   stroke(255);
   translate(200, height);
   branch(100);
+
 }
 
 function branch(len) {
@@ -55,8 +59,6 @@ function branch(len) {
     branch(len * 0.67);
     pop();
   }
-
-  //line(0, 0, 0, -len * 0.67);
 }
   </script>
 

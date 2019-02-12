@@ -20,7 +20,10 @@ app.get('/', function(req,res){
 app.get('/projects/tree', function(req,res){
   res.sendFile(path.join(__dirname, "/projects/tree/index.html"));
 });
-
+app.get('/webservice.jpg', function(req, res){
+    console.log('webservice fired!')
+    res.sendFile(path.join(__dirname, '/views/img/apple-favicon.png'))
+})
 app.post('/contact/mail', function(req,res){
 console.log("i am req.body after mail trigger ", req.body);
 

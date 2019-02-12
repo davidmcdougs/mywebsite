@@ -625,7 +625,7 @@ Home
 	position: relative;
 	height: 100%;
 	min-height: 520px;
-	background-image: url(https://scontent.fbkl1-1.fna.fbcdn.net/v/t31.0-8/1097095_10151794824284467_1075646780_o.jpg?oh=a20c9b672a3f0373387163cc7f6d56df&oe=5AD8B6D2);
+	background-image: url(../img/sun_moon_lake.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -703,7 +703,7 @@ Home
     z-index: 3;
 }
 .home-carousel .first-slide {
-	background-image: url(img/sun_moon_lake.jpg);
+	background-image: url(./../img/sun_moon_lake.jpg);
 }
 .home-carousel .second-slide {
 	background-image: url(https://lonelyplanetimages.imgix.net/mastheads/GettyImages-552157575_super.jpg?sharp=10&vib=20&w=1200);
