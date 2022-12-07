@@ -18,7 +18,7 @@
   "homepage": "https://github.com/davidmcdougs/friendfinder#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "ftp": "^0.3.10",
     "nodemailer": "^4.4.2",
     "path": "^0.12.7"
